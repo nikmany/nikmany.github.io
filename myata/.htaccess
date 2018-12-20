@@ -1,4 +1,4 @@
- <ifModule mod_expires.c>
+<ifModule mod_expires.c>
 
 # Add correct content-type for fonts
 AddType application/vnd.ms-fontobject .eot
