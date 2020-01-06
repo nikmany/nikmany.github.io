@@ -1,1 +1,113 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="32"><defs><linearGradient id="a"><stop offset="0" stop-color="#ffbf2f"/><stop offset="1" stop-color="#ffbf2f" stop-opacity="0"/></linearGradient><linearGradient xlink:href="#a" id="b" x1="0" y1="16" x2="17" y2="16" gradientUnits="userSpaceOnUse"/><clipPath id="c"><path fill="#fff" d="M0 32V0h17v32zm.994-16.21l.207.21-.207.21 14.599 14.795.413-.418L1.614 16 16.006 1.413l-.413-.419z"/></clipPath></defs><g fill="url(#b)" stroke="#ffbf2f"><path d="M15.593.994l.413.419L1.614 16l14.392 14.587-.413.418L.994 16.21l.207-.21-.207-.21z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width="2" d="M15.593.994l.413.419L1.614 16l14.392 14.587-.413.418L.994 16.21l.207-.21-.207-.21z" clip-path="url(&quot;#c&quot;)"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="17"
+   height="32"
+   viewBox="0 0 17 32"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="right.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview17"
+     showgrid="false"
+     inkscape:zoom="7.375"
+     inkscape:cx="8.5"
+     inkscape:cy="16"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg15" />
+  <defs
+     id="defs5">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient836">
+      <stop
+         style="stop-color:#ffbf2f;stop-opacity:1;"
+         offset="0"
+         id="stop832" />
+      <stop
+         style="stop-color:#ffbf2f;stop-opacity:0;"
+         offset="1"
+         id="stop834" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient828"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ffbf2f;stop-opacity:1;"
+         offset="0"
+         id="stop826" />
+    </linearGradient>
+    <clipPath
+       id="5bxta">
+      <path
+         fill="#fff"
+         d="M0 32V0h17v32zm.994-16.21l.207.21-.207.21 14.599 14.795.413-.418L1.614 16 16.006 1.413l-.413-.419z"
+         id="path2" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient836"
+       id="linearGradient838"
+       x1="0"
+       y1="16"
+       x2="17"
+       y2="16"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="g13"
+     style="fill:url(#linearGradient838);fill-opacity:1;stroke:#ffbf2f;stroke-opacity:1">
+    <g
+       id="g11"
+       style="fill:url(#linearGradient838);fill-opacity:1;stroke:#ffbf2f;stroke-opacity:1">
+      <path
+         fill="#7c8ca0"
+         d="M15.593.994l.413.419L1.614 16l14.392 14.587-.413.418L.994 16.21 1.201 16l-.207-.21z"
+         id="path7"
+         style="fill:url(#linearGradient838);fill-opacity:1;stroke:#ffbf2f;stroke-opacity:1" />
+      <path
+         fill="none"
+         stroke="#9fabba"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="50"
+         stroke-width="2"
+         d="M15.593.994l.413.419L1.614 16l14.392 14.587-.413.418L.994 16.21 1.201 16l-.207-.21z"
+         clip-path="url(&quot;#5bxta&quot;)"
+         id="path9"
+         style="fill:url(#linearGradient838);fill-opacity:1;stroke:#ffbf2f;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
