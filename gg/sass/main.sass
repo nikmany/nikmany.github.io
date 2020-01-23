@@ -1,0 +1,148 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+*, *::before, *::after
+	box-sizing: border-box
+
+body
+	font-size: 16px
+	min-width: 320px
+	margin: 0
+	padding: 0
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	color: $text
+	input, textarea
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+
+h1, h2, h3, h4, h5, h6
+	margin: 0
+	padding: 0
+
+
+p
+	margin: 0
+	padding: 0
+
+ul
+	margin: 0
+	padding: 0
+	list-style: none
+
+a
+	color: $text
+	text-decoration: none
+
+b, strong
+	font-weight: bold
+
+.wrapper
+	max-width: 1300px
+	padding: 
+		left: 75px
+		right: 75px
+	margin: auto
+
+#myVideo
+	position: absolute
+	min-width: 100%
+	min-height: 100%
+	right: 0
+	bottom: 0
+	opacity: .2
+
+.video-wrap
+	position: absolute
+	right: 0
+	bottom: 0
+	min-width: 100%
+	min-height: 100%
+	background-image: url(../img/video-bg.jpg)
+
+.header
+	position: relative
+	height: 100vh
+	&__logo
+		&-img
+			position: relative
+			top: 50%
+			transform: translateY(-50%)
+	&__topline
+		position: fixed
+		top: 0
+		left: 0
+		right: 0
+		padding-top: 10px
+		padding-bottom: 10px
+		background: rgba(255, 255, 255, 0.9)
+		&-wrapper
+			display: flex
+			justify-content: space-between
+	&__navigation
+		display: flex
+		justify-content: space-between
+		width: 672px
+		&-item
+			display: flex
+			align-items: center
+			padding:
+				top: 16px
+				bottom: 16px
+			&::after
+				content: url(../img/icons/arrow-down.svg)
+				margin-left: 6px
+		&-icon
+			margin-right: 8px
+	&__personal
+		display: flex
+		&-wrap
+			margin-right: 24px
+		&-img
+			position: relative
+			top: 50%
+			transform: translateY(-50%)
+	&__title
+		color: #fff
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		font-size: 72px
+	&__products
+		position: absolute
+		left: 0
+		right: 0
+		bottom: 0
+		background-color: #fff
+		text-align: center
+		border-radius: 30px 30px 0 0
+		&-title
+			width: 58%
+			font-size: 28px
+			padding-top: 26px
+			margin: 0 auto 30px
+		&-list
+			display: flex
+			justify-content: space-between
+			margin-bottom: 35px
+		&-item
+			flex: 0 1 14%
+		&-description
+			font-family: $add-font
+			font-size: 14px
+@import "media" // Always at the end
